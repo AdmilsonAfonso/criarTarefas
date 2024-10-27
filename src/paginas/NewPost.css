@@ -1,0 +1,28 @@
+.new-post h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-control label{
+    color: wheat;
+    margin-bottom: .5rem;
+}
+
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.form-control input,
+.form-control textarea{
+    padding: 0.5rem;
+    border-radius: 5px;
+    color:white;
+}
